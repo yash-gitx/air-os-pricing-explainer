@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import os
 
-DB_PATH = "spinny_warehouse.db"
+DB_PATH = "spinny_data_v2.db"
 
 def init_and_seed_db(force_reseed: bool = False):
     """Initializes the SQLite warehouse and seeds 30 days of realistic inventory telemetry."""
